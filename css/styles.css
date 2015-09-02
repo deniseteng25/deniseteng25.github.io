@@ -945,7 +945,8 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 60px 0
+    padding: 40px 0
+    background-color: #7accc8;
 }
 footer p {
     color: #24374b;
