@@ -449,10 +449,10 @@ p {
     line-height: 25px;
 }
 a {
-    color: #9932CC
+    color: #6854AA
 }
 a:hover, a:focus {
-    color: #9932CC;
+    color: #6854AA;
     text-decoration: none;
 }
 .texture-overlay {
@@ -473,11 +473,11 @@ Buttons
     padding: 20px 50px;
     border-radius: 3px;
     background-color: #fff;
-    color: #9932CC;
+    color: #6854AA;
     font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #9932CC;
+    background-color: #6854AA;
     color: #fff;
     text-decoration: none;
 }
@@ -490,8 +490,8 @@ Buttons
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #9932CC;
-    color: #9932CC;
+    border-color: #6854AA;
+    color: #6854AA;
     text-decoration: none;
 }
 .read-more-btn {
@@ -629,11 +629,11 @@ section.video a {
     color: #323a45
 }
 section.video a:hover, section.video a:focus {
-    color: #9932CC;
+    color: #6854AA;
     text-decoration: none;
 }
 section.video a:hover i, section.video a:focus i {
-    color: #9932CC
+    color: #6854AA
 }
 
 /* ==========================================================================
@@ -733,7 +733,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px #4e9ba3;
+    border: solid 2px #6854AA;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -741,7 +741,7 @@ Features List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #6854AA
 }
 
 /* ==========================================================================
@@ -889,7 +889,7 @@ Screenshots
     color: #fff
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #9932CC
+    color: #6854AA
 }
 .screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
     opacity: 1
@@ -1028,8 +1028,8 @@ Nav Overlay
     transition: all 300ms ease-in-out;
 }
 .overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: #9932CC;
-    color: #9932CC;
+    border-color: #6854AA;
+    color: #6854AA;
 }
 
 /* Effects */
