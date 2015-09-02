@@ -945,10 +945,10 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 30px 0;
+    padding: 150px 0;
     background: url('../img/hero-01.jpg') fixed center center;
-
-    background-color: #242830;
+    /* background-color: #242830; */
+    background-size: cover;
 }
 footer p {
     color: #24374b;
