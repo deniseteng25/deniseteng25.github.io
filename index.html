@@ -4,6 +4,17 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <html lang="en" class="no-js">
+
+<!--LOCK RIGHT CLICK-->
+<style type="text/css">
+body {
+-moz-user-select : none;
+-webkit-user-select: none;
+}
+</style>
+
+
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,6 +60,38 @@
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 		<!-- open/close -->
+
+<!--LOCK RIGHT CLICK-->
+<script type="text/javascript">
+function iEsc(){ return false; }
+function iRec(){ return true; }
+function DisableKeys() {
+if(event.ctrlKey || event.shiftKey || event.altKey) {
+window.event.returnValue=false;
+iEsc();}
+}
+document.ondragstart=iEsc;
+document.onkeydown=DisableKeys;
+document.oncontextmenu=iEsc;
+if (typeof document.onselectstart !="undefined")
+document.onselectstart=iEsc;
+else{
+document.onmousedown=iEsc;
+document.onmouseup=iRec;
+}
+function DisableRightClick(qsyzDOTnet){
+if (window.Event){
+if (qsyzDOTnet.which == 2 || qsyzDOTnet.which == 3)
+iEsc();}
+else
+if (event.button == 2 || event.button == 3){
+event.cancelBubble = true
+event.returnValue = false;
+iEsc();}
+}
+</script>
+
+
 
 
 
