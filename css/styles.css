@@ -611,7 +611,7 @@ Video
 ========================================================================== */
 section.video i {
     margin-right: 10px;
-    color: #323a45;
+    color: #6854AA;
     vertical-align: middle;
     font-size: 50px;
     -webkit-transition: color 300ms ease-in-out;
@@ -626,14 +626,14 @@ section.video {
     background-color: #f6f7f9;
 }
 section.video a {
-    color: #323a45
+    color: #6854AA
 }
 section.video a:hover, section.video a:focus {
-    color: #6854AA;
+    color: #ACACAE;
     text-decoration: none;
 }
 section.video a:hover i, section.video a:focus i {
-    color: #6854AA
+    color: #ACACAE
 }
 
 /* ==========================================================================
