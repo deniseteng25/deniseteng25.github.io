@@ -649,7 +649,7 @@ Custom Slider Controls (Flickity)
     transition: background 0.3s;
 }
 .flickity-page-dots .dot.is-selected {
-    background: white;
+    background: #6854AA;
 }
 
 /* ==========================================================================
